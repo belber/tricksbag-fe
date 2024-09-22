@@ -16,8 +16,8 @@ export default [
     layout: false,
     routes: [
       {
-        name: 'login',
         path: '/user/login',
+        name: 'login',
         component: './User/Login',
       },
     ],
@@ -46,9 +46,9 @@ export default [
     ],
   },
   {
+    path: '/list',
     name: 'list.table-list',
     icon: 'table',
-    path: '/list',
     component: './TableList',
   },
   {
